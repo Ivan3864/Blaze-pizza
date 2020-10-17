@@ -36,3 +36,9 @@ p {
 .aboutusimg:hover {
 	transform: scale(1.2);
 }
+/*menu*/
+.text3 {
+	text-align: center;
+	color: #FAFAFA;
+	font-family: 'Piedra', cursive;
+}
