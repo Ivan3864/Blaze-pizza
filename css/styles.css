@@ -4,3 +4,22 @@ body {
 	background-attachment: fixed;
 	background-size: 100% 100%;
 }
+/*landing page*/
+h1 {
+	font-family: 'Creepster';
+    size: 40px;
+	color:#FF8C00;
+	text-align: center;
+}
+p {
+	font-family: 'Creepster';
+	font-size: 50px;
+	color:#FF8C00;
+	text-align: center;
+}
+.centered {
+	position: absolute;
+	top: 74%;
+	left: 50%;
+    transform: translate(-50%, -50%);
+}
