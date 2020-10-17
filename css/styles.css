@@ -6,20 +6,15 @@ body {
 }
 /*landing page*/
 h1 {
-	font-family: 'Creepster';
+	font-family: 'Chilanka', cursive;;
     size: 40px;
 	color:#FF8C00;
 	text-align: center;
 }
-p {
-	font-family: 'Creepster';
-	font-size: 50px;
-	color:#FF8C00;
-	text-align: center;
-}
-.centered {
+.text1 {
 	position: absolute;
 	top: 74%;
 	left: 50%;
     transform: translate(-50%, -50%);
+    padding-top: 40px;
 }
