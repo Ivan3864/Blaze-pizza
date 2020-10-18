@@ -139,31 +139,34 @@
             </form>
             <a href="#summary">
                 <button type="submit" name="button" class="btn btn-success checkout" id="submit" value="check-out" onclick="calctotalPrice()">
-                    Finish
-                </button>
+                    Submit
+               
             </a>
 
         </div>
         <div class="col-sm-2"></div>
     </div>
 </div>
-
-<div class="order-summary" id="sum-order">
-    <h1 class="text-center" id="summary">Order Summary</h1>
-    <h2 class="text-center summary">Hello there, your order is as follows:</h2>
-    <ol id="list" class="text-center sum">
-    </ol>
-
-
-
-
-
-
-
-
-
-
-
+<br>
+<!-- Delivery -->
+<div class="Delivery" id="order">
+    <h1 class="text-center" id="order-pizza">Fill In the form for delivery services</h1>
+    <div class="form-group row">
+        <div class="col-sm-2"></div>
+        <div class="col-sm-8 order-overlay text-center">
+            <form class="col-sm-6 offset-sm-3 text-center" id="delivery">
+                <label for="name">Name</label>
+                        <input class="form-control" type="text" name="" id="name" required="required">
+                        <label for="location">Location</label>
+                        <input class="form-control" type="text" id="location" placeholder="location...">
+                        <label for="phonenumber">Phone Number</label>
+                        <input class="form-control" type="tel" placeholder="07xxxxxxxx" id="number"> <br>
+                        <button type="submit" name="button" id="submit" class="btn btn-success checkout">submit</button>
+                </form>
+            </div>
+         </div>
+   </div>
+      
 
 
   <!-- custom script file -->
